@@ -1,0 +1,151 @@
+body {
+    margin: 0px 100px 0px 100px;
+    background-size: cover;
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAADCAYAAABfwxXFAAAANUlEQVQYVzVMSQoAQAjS6v9vDbrnYDCCoLhwZhQR2F2QPEpCZoLdrarCLzgw7C+0cNNr4z88WBgapBxYQ3QAAAAASUVORK5CYII=");
+
+}
+
+.header {
+    font-family: Dosis;
+    color: #363636;
+    text-align-last: left;
+    text-shadow: 3px 3px 4px #c7c7c7;
+}
+
+.script {
+}
+
+.bar {
+    fill: #99c0e2;
+    fill-opacity: 1;
+}
+
+.bar2 {
+    fill: #bb9cd1;
+    fill-opacity: 1;
+}
+
+.bar,
+.bar2 {
+        transform: translate(4px,0px);
+    }
+    
+.bar:hover {
+    fill: #62a3dd;
+    fill-opacity: 1;
+}
+    
+.bar2:hover {
+    fill: #b367e2;
+    fill-opacity: 1;
+}
+
+.axis text {
+    font: 9px Dosis;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #765c5c;
+    shape-rendering: crispEdges;
+}
+
+.x.axis path,
+.x.axis line{
+    stroke: #765c5c;
+    transform: translate(25px,0px);
+}
+
+.x.axis text {
+    letter-spacing: 1px;
+    font-family: sans-serif;
+}
+
+.y.axis text{
+    text-anchor: end;
+    font-family: sans-serif;
+    font-style: bold;
+}
+
+.selector {
+    transform: translate(-211px, 11px);
+    
+}
+
+.buttons {
+    float: left;
+    transform: translate(-60px, -20px);
+}
+
+.tooltip {
+    font-family: Roboto;
+    font-size: 12px;
+    transform: translate(220px, -796px);
+}
+    
+.checkbox {
+    transform: translate(-70px, 190px);
+}
+    
+.numbersMetric{
+    transform: translate(0px, 0px);
+}
+    
+.qcp{
+    color: red;
+}
+
+.tpcp{
+    color: red;
+}
+
+.key1{
+    fill: #99c0e2;
+    fill-opacity: 1;
+    transform: translate(-60px, 149px);
+}
+
+.key2{
+    fill: #bb9cd1;
+    fill-opacity: 1;
+    transform:translate(-60px, 29px);
+}
+
+.key1p{
+    transform:translate(-30px, 78px);
+    font-family: Dosis;
+}
+
+.key2p{
+    transform:translate(-30px, 0px);
+    font-family: Dosis;
+}
+    
+.showTimes {
+    font-size: 12px;
+    font-family: Roboto;
+    transform: translate(-50px, 160px);
+}
+    
+.description1{
+    margin: -320px 390px 20px 15px;
+    position: absolute;
+    width: 700px;
+    overflow: auto;
+    white-space: pre-wrap;
+    font-family: Roboto;
+    text-align: left;
+    font-size: 12px;
+}
+
+.description2{
+    margin: -230px 390px 20px 15px;
+    position: absolute;
+    width: 700px;
+    overflow: auto;
+    white-space: pre-wrap;
+    font-family: Roboto;
+    text-align: left;
+    font-size: 12px;
+}
