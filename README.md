@@ -4,6 +4,7 @@ The purpose of this graph is to visualize two collumns of data within the same C
 ## Installation
 * Download the zip file and extract
 * Open index.html in any supporter browser
+* **If you get the error "Cross origin requests are only supported for protocol schemes: http, data, chrome, chrome-extension, https", try opening it in Firefox or opening it with an editor like Brackets, then previewing it from there.**
 
 ## Personalization
 * Open the HTML file in an editor
