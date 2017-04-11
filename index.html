@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<header>
+<link href="https://fonts.googleapis.com/css?family=Dosis:200" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<script src="http://d3js.org/d3.v3.min.js"></script>
+
+</header>
+
+<body>
+
+    <div class="header">
+        <H1>Comparison Bar Graph</H1>  
+    </div>
+
+<!-- This check box lets you decide whether or not you want to view both numbers or just the total unique views -->
+    <div class="dataSelector">
+        <input type="checkbox" onclick="loadData()" id="dataSwapCheck" class="checkbox" checked><p class=showTimes>Show Total Views</p>
+    </div>
+
+    <br/>
+    <br/>
+
+<!-- Color key of the graph goes here -->    
+    <svg class="key1" width="50" height="25">
+        <rect width="20" height="10"/><p class="key1p">Unique Views</p>
+    </svg>
+
+    <br/>
+
+    <svg class="key2" width="50" height="25">
+        <rect width="20" height="10"/><p class="key2p">Total Views</p><br/>
+    </svg>
+
+<!-- Description of the graph goes here -->    
+    <div class="description1">
+        <p>The purpose of this graph is to visualize two collumns of data within the same CSV file, as well as load different CSV files with the drop down menu.  Each set of data is split up into 10 bars on the graph at a time to make it more visually appealing and readable, using "next 10" and "previous 10" buttons to surf through the data easily (which could easily be edited to load more or less than 10 at a time if the situation called for it with a few simple changes to the javascript).  There's also a checkbox implimented to disable or enable the second set of data if the viewer so chooses.</p>
+    </div>
+
+    <div class="description2">
+        <p>A good example of the intended data of this graph would be to show the unique views and repeat views of different web pages, where the x axis (bottom) is the name of the web pages, and the y axis (left side) is the number of views.  One bar would represent the number of total views, and the other bar would represent the number of unique views only (one per IP address).  The hover text would just give more detailed information.</p>
+    </div>
+
+<!-- These buttons will be used to browse through the graph 10 sets of data at a time -->
+    <div class="buttons">
+        <button type="button" id="bt1" class="bt1">Previous 10</button>
+        <button type="button" id="bt2" class="bt2">Next 10</button>
+    </div>
+
+    
+<!-- This select menu will call the function "loadData" whenever you change the selection -->
+    <div class="selector">
+        <select onchange="loadData()" id="metric">
+            <option>Example_1</option>
+            <option>Example_2</option>
+            <option>Example_3</option>
+            <option>Example_4</option>
+        </select>
+    </div>
+ <script src="javascript.js"></script>   
+ 
+</body>
