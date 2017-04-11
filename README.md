@@ -1,6 +1,9 @@
 # Comparison Bar Graph
 The purpose of this graph is to visualize two collumns of data within the same CSV file, as well as load different CSV files with the drop down menu.  You can also select to view just one set of data or both with the checkbox.
 
+### View online
+https://7rystan.github.io/Comparison/
+
 ## Installation
 * Download the zip file and extract
 * Open index.html in any supporter browser
